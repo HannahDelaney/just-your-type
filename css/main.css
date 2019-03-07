@@ -31,10 +31,27 @@ strong {
 }
 
 .green {
-  color: green;
+  color: #25922b;
   font-family: 'Chelsea Market', cursive;
 }
 
 p {
   font-family: 'Chelsea Market', cursive;
+}
+
+.bottom-type {
+  color: #f5e9b3;
+}
+
+.border {
+  border: 4px solid #f5e9b3;
+}
+
+@media only screen and (min-width: 90rem) {
+
+  body {
+    background-color: green;
+    color: #25922b;
+  }
+
 }
