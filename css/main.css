@@ -19,4 +19,22 @@ html {
 
 body {
   margin: 0;
+  background-color: #f5e9b3;
+}
+
+ol {
+  font-family: Gaegu, cursive;
+}
+
+strong {
+  font-family: Gaegu, cursive;
+}
+
+.green {
+  color: green;
+  font-family: 'Chelsea Market', cursive;
+}
+
+p {
+  font-family: 'Chelsea Market', cursive;
 }
