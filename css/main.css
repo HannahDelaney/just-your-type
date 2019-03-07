@@ -41,10 +41,35 @@ p {
 
 .bottom-type {
   color: #f5e9b3;
+  visibility: hidden;
 }
 
 .border {
   border: 4px solid #f5e9b3;
+}
+
+.second {
+  visibility: hidden;
+}
+
+.third {
+  visibility: hidden;
+}
+
+@media only screen and (min-width: 38rem) {
+
+  .second {
+    visibility: visible;
+  }
+
+}
+
+@media only screen and (min-width: 60rem) {
+
+  .third {
+    visibility: visible;
+  }
+
 }
 
 @media only screen and (min-width: 90rem) {
@@ -52,6 +77,10 @@ p {
   body {
     background-color: green;
     color: #25922b;
+  }
+
+  .bottom-type {
+    visibility: visible;
   }
 
 }
