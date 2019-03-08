@@ -2,6 +2,10 @@ body {
   background-color: #f5e9b3;
 }
 
+.vh100 {
+  height: 100vh;
+}
+
 h1 {
   font-family: Gaegu, cursive;
 }
